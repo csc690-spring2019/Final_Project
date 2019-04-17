@@ -8,7 +8,7 @@ Group consists of: Zaur Melikov & Kevin Mitsuda
 App Name: Mind Your Manners
 
 App Description:
-
+  
   Our app will allow a user to reciecve a bit of advice from a specific category of their choosing. They will be able to apply        filters such as: Event Type/Situation, Gender, Age, and group size, in order to recieve a more refined bit of advice that they can then take and use during their interactions at said event. Users will also be able to select from a general/random advice filter that will produce a randomly selected, yet very applicable piece of advice they can use in their daily lives.
   
   Must Have Features:
