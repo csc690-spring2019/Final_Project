@@ -13,13 +13,13 @@ App Description:
   
   Must Have Features:
   
-    Drop Down Menus For Filters
-    Button Pull Applicable Advice Based On Filter Selection
-    General/Random Advice Button
-    Label To Display Advice
+    Drop Down Menus For Filters (1-2 days)
+    Button Pull Applicable Advice Based On Filter Selection (1-2 days)
+    General/Random Advice Button (1 day)
+    Label To Display Advice (1 day)
     
   Nice To Have Features:
   
-    Animations That Occur When Get Advice Button Is Pressed
-    A Get Funny Advice Button
-    A Way To Pull Advice From A Routinely Updated Source Which Allows For New Advice To Be Added To Each Category.
+    Animations That Occur When Get Advice Button Is Pressed (3-4 days)
+    A Get Funny Advice Button (1-2 days)
+    A Way To Pull Advice From A Routinely Updated Source Which Allows For New Advice To Be Added To Each Category. (2-3 weeks)
