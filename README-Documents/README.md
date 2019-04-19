@@ -5,7 +5,7 @@ Group Size: 2 people.
 
 Group consists of: Zaur Melikov & Kevin Mitsuda
 
-App Name: Mind Your Manners
+App Name(s): Mind Your Manners, Etiquette
 
 App Description:
   
