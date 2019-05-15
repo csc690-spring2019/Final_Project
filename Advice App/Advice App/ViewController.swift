@@ -15,6 +15,9 @@ class ViewController: UIViewController {
     @IBOutlet var friendshipButtons: [UIButton]!
     
     @IBOutlet var schoolButtons: [UIButton]!
+    
+    @IBOutlet var datingButtons: [UIButton]!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
@@ -31,6 +34,14 @@ class ViewController: UIViewController {
     
     @IBAction func schoolSelector(_ sender: Any) {
         schoolButtons.forEach { (button) in
+            UIView.animate(withDuration: 0.3, animations: {
+                button.isHidden = !button.isHidden
+                self.view.layoutIfNeeded()
+            })
+        }
+    }
+    @IBAction func datingSelector(_ sender: UIButton) {
+        datingButtons.forEach { (button) in
             UIView.animate(withDuration: 0.3, animations: {
                 button.isHidden = !button.isHidden
                 self.view.layoutIfNeeded()
@@ -61,6 +72,18 @@ class ViewController: UIViewController {
     }
     @IBAction func socialize(_ sender: Any) {
         textview.text = "Your peers will be come an intriate part of your learning journey. Now is the time to introduce yourself and network!"
+    }
+    @IBAction func manners(_ sender: Any) {
+        textview.text = "Remember to hold the door for your date!"
+    }
+    @IBAction func interest(_ sender: Any) {
+        textview.text = "Ask your date follow up questions to show that your interested."
+    }
+    @IBAction func communication(_ sender: Any) {
+        textview.text = "Communication in a relationship is key. Neither of you are mind readers. Say what you mean!"
+    }
+    @IBAction func forgiveness(_ sender: Any) {
+        textview.text = "Tough times befall everyone. Remember why you're together. Forgive each other and feel much better."
     }
 }
 
