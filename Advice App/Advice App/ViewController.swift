@@ -11,6 +11,8 @@ import UIKit
 class ViewController: UIViewController {
 
     
+    @IBOutlet weak var category: UILabel!
+    
     @IBOutlet weak var textview: UITextView!
     @IBOutlet var friendshipButtons: [UIButton]!
     
@@ -28,6 +30,7 @@ class ViewController: UIViewController {
             UIView.animate(withDuration: 0.3, animations: {
                 button.isHidden = !button.isHidden
                 self.view.layoutIfNeeded()
+                self.category.text = "Category: Friendship Advice"
             })
         }
     }
@@ -37,6 +40,7 @@ class ViewController: UIViewController {
             UIView.animate(withDuration: 0.3, animations: {
                 button.isHidden = !button.isHidden
                 self.view.layoutIfNeeded()
+                self.category.text = "Category: School Advice"
             })
         }
     }
@@ -45,6 +49,7 @@ class ViewController: UIViewController {
             UIView.animate(withDuration: 0.3, animations: {
                 button.isHidden = !button.isHidden
                 self.view.layoutIfNeeded()
+                self.category.text = "Category: Dating Advice"
             })
         }
     }
