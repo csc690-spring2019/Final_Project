@@ -5,7 +5,7 @@ Group Size: 2 people.
 
 Group consists of: Zaur Melikov & Kevin Mitsuda
 
-App Name(s): Mind Your Manners, Etiquette
+App Name(s): Advice App, Etiquette
 
 App Description:
   
@@ -23,3 +23,6 @@ App Description:
     Animations That Occur When Get Advice Button Is Pressed (3-4 days) (Zaur Melikov & Kevin Mitsuda)
     A Get Funny Advice Button (1-2 days) (Zaur Melikov & Kevin Mitsuda)
     A Way To Pull Advice From A Routinely Updated Source Which Allows For New Advice To Be Added To Each Category. (2-3 weeks) (Zaur Melikov & Kevin Mitsuda)
+    
+    
+    
